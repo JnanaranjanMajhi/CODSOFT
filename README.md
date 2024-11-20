@@ -1,27 +1,57 @@
 # CODSOFT
-Calculator Project
+# Simple Calculator in Python
+
 This is a simple calculator program that performs basic arithmetic operations like addition, subtraction, multiplication, and division. The program is written in Python and allows users to interactively choose an operation and input numbers for calculation.
 
-Features
-Addition: Adds two numbers.
-Subtraction: Subtracts the second number from the first number.
-Multiplication: Multiplies two numbers.
-Division: Divides the first number by the second number (handles division by zero).
-How to Use
-Clone or download the repository to your local machine.
+## Features
 
-Open a terminal or command prompt in the project directory.
+- **Addition**: Adds two numbers.
+- **Subtraction**: Subtracts the second number from the first number.
+- **Multiplication**: Multiplies two numbers.
+- **Division**: Divides the first number by the second number (handles division by zero).
 
-Run the program by executing the following command:
+## How to Use
 
-bash
-Copy code
-python calculator.py
-Select an operation by entering the corresponding number (1 for Addition, 2 for Subtraction, 3 for Multiplication, and 4 for Division).
+1. Clone or download the repository to your local machine.
 
-Enter two numbers for the operation.
+    ```bash
+    git clone https://github.com/yourusername/calculator.git
+    ```
 
-The result will be displayed, and you will be asked if you want to perform another calculation.
+2. Open a terminal or command prompt in the project directory.
 
-Code Example
-The following functions are defined to perform basic arithmetic operations:
+3. Run the program by executing the following command:
+
+    ```bash
+    python calculator.py
+    ```
+
+4. Select an operation by entering the corresponding number:
+   - `1` for Addition
+   - `2` for Subtraction
+   - `3` for Multiplication
+   - `4` for Division
+
+5. Enter two numbers for the operation.
+
+6. The result will be displayed, and you will be asked if you want to perform another calculation.
+
+## Code Example
+
+Below are the main functions that handle the basic arithmetic operations:
+
+```python
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y == 0:
+        return "Error! Division by zero."
+    else:
+        return x / y
