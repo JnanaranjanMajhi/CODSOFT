@@ -1,5 +1,5 @@
 # CODSOFT
-# Simple Calculator in Python
+# 1. Simple Calculator in Python
 
 This is a simple calculator program that performs basic arithmetic operations like addition, subtraction, multiplication, and division. The program is written in Python and allows users to interactively choose an operation and input numbers for calculation.
 
