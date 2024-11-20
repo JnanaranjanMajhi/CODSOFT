@@ -55,3 +55,13 @@ def divide(x, y):
         return "Error! Division by zero."
     else:
         return x / y
+```
+## Example Output
+Here is an example of how the program runs:
+Select operation:
+- Addition
+- Subtraction
+- Multiplication
+- Division Enter choice (1, 2, 3, 4): 1 Enter first number: 10 Enter second number: 5
+- Addition of 10.0 and 5.0 is 15.0
+- Do you want to perform another calculation? (y/n): 
